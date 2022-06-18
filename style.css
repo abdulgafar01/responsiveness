@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+}
+main{
+    font-size: 1.6rem;
+    background-image: url("./img/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%) ;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 1.7rem;
+    
+}
+h2{
+    font-weight: 700;
+    margin-bottom: 2rem;
+    font-size: 4.5rem;
+    line-height: 4rem;
+}
+.info{
+    padding: 5rem;
+    margin-left: 15rem;
+    width: 55rem;
+    color: white;
+}
+
+.form{
+    width: 45rem;
+    margin-right:15rem;
+}
+.btn1{
+    width: 100%;
+    background-color: hsl(248, 32%, 49%);
+    height: 4rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0.8rem 0.1rem rgba(62, 60, 73,0.4) ;
+}
+.form-info{
+    background-color: white;
+    height:45rem ;
+    padding: 2.5rem;
+    border-radius: 1rem;
+}
+input{
+    width: 95%;
+    height: 3rem;
+    margin: 1rem;
+    padding: 2rem;
+    outline: none;
+    border: 1px solid rgba(62, 60, 73,0.4);
+    border-radius: 0.5rem;
+}
+button{
+    background-color: hsl(154, 59%, 51%);
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid hsl(154, 59%, 51%) ;
+    width: 95%;
+    margin: 2rem 1.5rem ;
+    outline: none;
+    border-radius: 0.5rem;
+    padding: 1.6rem;
+    cursor: pointer;
+}
+.form-footer{
+   width: 95%;
+   font-size: 1.3rem;
+   margin: 0.5rem 2rem;
+   color: rgba(96, 85, 165,0.4);
+}
+.terms{
+    color:rgba(255, 122, 122,0.7);
+    margin-bottom:2rem;
+}
+.form-control{
+    position: relative;
+    height: 7.5rem;
+}
+.error-icon{
+    position: absolute;
+    top: 1.8rem;
+    right: 1.5rem;
+    visibility: hidden;
+}
+.form-control small{
+    position: absolute;
+    right: 1.5rem;
+    bottom: 0.2rem;
+    color: rgba(255, 122, 122,0.7);
+    font-style: italic;
+    font-weight: 700;
+    visibility: hidden;
+}
+.error{
+    border: 2px solid rgba(255, 122, 122,0.8);
+}
